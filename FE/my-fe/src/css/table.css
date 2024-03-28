@@ -1,0 +1,35 @@
+.table-container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .alcohol-table {
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .alcohol-table th,
+  .alcohol-table td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  
+  .alcohol-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .alcohol-table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .alcohol-table tbody tr:hover {
+    background-color: #f0f0f0;
+  }
+  
+  body{
+    background-color: black;
+    color: white;
+  }

@@ -1,0 +1,14 @@
+.drinkImg:hover {
+    background: blue;
+    border: 1px solid blue;
+ }
+
+ .drink-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjust 300px to your desired width */
+    grid-gap: 20px; /* Adjust spacing between items */
+  }
+  
+  .drink-item {
+    width: 100%;
+  }
